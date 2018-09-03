@@ -1,0 +1,29 @@
+[user]
+	name = Tunghim Lam
+	email = tunghim@gmail.com
+[core]
+	excludesfile = /Users/tunghimlam/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+	ui = auto
+[alias]
+	a = add
+	b = branch
+	c = commit
+	cl = clone
+	co = checkout
+	d = diff
+	dt = diff-tree --no-commit-id --name-only -r
+	dump = cat-file -p
+	fst = !git fetch && git status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	i = init
+	l = log
+	p = push
+	s = status
+	type = cat-file -t
