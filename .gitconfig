@@ -24,6 +24,8 @@
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	i = init
 	l = log
+	m = merge
 	p = push
+	pl = pull
 	s = status
 	type = cat-file -t
