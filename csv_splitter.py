@@ -2,7 +2,7 @@ import csv
 from os import path, listdir, rename, remove
 
 
-def split(filehandler, delimiter=',', row_limit=10000,
+def split(filehandler, delimiter=',', row_limit=5000,
     output_name_template='output_%s.csv', output_path='.', keep_headers=True):
     """
     Splits a CSV file into multiple pieces.
