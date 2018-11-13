@@ -1,0 +1,2011 @@
+/*https://userstyles.org/styles/131684
+https://github.com/Zeeex/Simple-Modern-Dark-Microsoft
+Check out my tool for optimizing Windows: 
+https://xtrtoolbox.blogspot.com*/
+html,
+body,
+.CSPvNext,
+.n29d-content,
+.rwd,
+.sidebar,
+article.post,
+.ng-scope
+{
+	color: #fff !important;
+	background: #000 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAACVBMVEUaGhohISElJSUh9lebAAAB20lEQVRIx4XWuZXDMAwE0C0SAQtggIIYoAAEU+aKOHhYojTrYP2+QfOW/5QIJOih/q8HwF/pb3EX+UPIveYcQGgEHiu9hI+ihEc5Jz5KBIlRRRaJ1JtoSAl5Hw96hLB1/up1tnIXOck5jZQy+3iU2hAOKSH1JvwxHsp+5TLF5MOl1/MQXsVs1miXc+KDbYydyMeUgpPQreZ7fWidbNhkXNJSeAhc6qHmHD8AYovunYyEACWEbyIhNeB9fRrH3hFi0bGPLuEW7xCNaohw1vAlS805nfsrTspclB/hVdoqusg53eH7FWot+wjYpOViX8KbFFKTwlnzvj65P9H/vD0/hibYBGhPwlPO8TmxRsaxsNnrUmUXpNhirlJMPr6Hqq9k5Xn/8iYQHYIuQsWFC6Z87IOxLxHphSY4SpuiU87xJnJr5axfeRd+lnMExXpEWPpuZ1v7qZdNBOjiHzDREHX5fs5Zz9p6X0vVKbKKchlSl5rv+3p//FJ/PYvoKryI8vs+2G9lzRmnEKkh+BU8yDk515jDj/HAswu7CCz6U/Mxb/PnC9N41ndpU4hUU7JGk/C9PmP/M2xZYdvBW2PObyf1IUiIzoHmHW9yTncliYs9A9tVNppdShfgQaTLMf+j3X723tLeHgAAAABJRU5ErkJggg==) !important;
+	font-family: Roboto !important;
+}
+
+p
+{
+	color: #e1e1e1 !important;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+font,
+.entry-content,
+.entry-summary
+{
+	font-family: Roboto !important;
+}
+
+p,
+span
+{
+	font-family: Roboto;
+}
+
+p pre,
+pre span
+{
+	font-family: Consolas !important;
+}
+
+
+/* TITLES = */
+h1,
+h2,
+h3,
+.main-header .search-field,
+body.blog-id-1 .pagination .page-numbers:not(.dots):not(.current),
+.brandLogo > a
+{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 150%;
+	color: #fff !important;
+	background-color: inherit !important;
+}
+
+h3.sbody-h3
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 150%;
+}
+
+h4,
+h5,
+h4.sbody-h4
+{
+	font-variant: small-caps;
+	font-size: 125%;
+	color: #fff !important;
+}
+
+
+/* FORCE BLACK ON WHITE = */
+select,
+select option:checked,
+select option:focus,
+select option
+{
+	background-color: #000 !important;
+	color: #fff !important;
+}
+
+
+/* CS WHITE ============================== */
+#ux-header .ux-nav a,
+.ux-nav a:link,
+.ux-nav a:visited
+{
+	color: #fff;
+	background: inherit;
+}
+
+a,
+p,
+li,
+label,
+#projectInfo .section .itemBar > span,
+font[color="#000000"],
+.top-breadcrumbs,
+.ocpArticleContent p,
+td.titleColumn,
+.highlight-lineno,
+div#body ul#mobile-task-nav-list > li > a,
+#page #body ul#mobile-task-nav-list > li > a,
+div#tocNav div a,
+div#tocDropdownMenu div a,
+div#tocNav div a:visited,
+div#tocDropdownMenu div a:visited,
+div#tocNav div a:link,
+div#tocDropdownMenu div a:link,
+div#tocNav div.current a,
+div#tocDropdownMenu div.current a,
+div#tocNav div.current a:visited,
+div#tocDropdownMenu div.current a:visited,
+div#tocNav div.current a:link,
+div#tocDropdownMenu div.current a:link,
+.communityContentAnnotation,
+#threeColumns > .right #navigationButtons a,
+#threeColumns > .right #navigationButtons a:visited,
+#threeColumns > .right #navigationButtons a:link,
+span.username a,
+#quickLinks #quickLinksText span,
+.pln,
+.messageContent .messageFooter .date,
+.unified-baseball-card-mini .profile-mini,
+.unified-baseball-card-mini .profile-mini .profile-mini-points,
+.unified-baseball-card .baseball-card-joined,
+ul.history > li > span.type,
+ul.history > li > span.date,
+.section .section-title,
+#brand-name::after,
+h1.post-title,
+.type-curation_post .post-title a,
+.type-post:not(tr) .post-title a,
+.c-universal-header > div:first-child div.js-nav-menu button,
+span.loc,
+.download-main-article .row-fluid .brief-description,
+ul.htmldetails,
+div.download-summary table td,
+div#content td,
+span.file-size,
+.span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.bundle-heading,
+.msame_Drop_active_name,
+.msame_Drop_active_email,
+.searchbarlabel,
+.browselabel,
+.renew,
+#legalDisclaimer,
+.internav a,
+.internav a:link,
+.internav a:visited,
+.msame_Drop_SI a:link,
+.msame_Drop_SI a:visited,
+.ask-learn-solve-container .content-text,
+.ask-learn-solve-container .content-title,
+div.home-category-list > div > a,
+.header-dropdown-label-home a:visited,
+.header-dropdown-tab-list a:visited,
+#MainContent .statistic-group .statistic-table td,
+#hdr .hdr-signin .hdr-signin-button,
+.c-universal-header > div + div .c-action-trigger,
+.c-universal-header > div + div .c-logo,
+.c-universal-header > div + div .c-uhf-menu a,
+.c-universal-header > div + div .c-uhf-menu button,
+.c-universal-header > div + div .c-uhf-nav-link,
+.c-universal-header > div:first-child .c-uhf-nav-link,
+.picchu .msr-tabs a,
+.picchu.profile .subtitle a,
+.download-main-article,
+.m-product-detail-hero.m-digital-good-hero .context-product-placement-data .c-rating .c-glyph:after,
+.pdfDownloadHolder a:link,
+.pdfDownloadHolder a:visited,
+.toc > ul a:link,
+.toc > ul a:visited,
+.c-universal-header .theme-light .c-call-to-action.f-image,
+.c-universal-header > [class*=theme-] .c-action-trigger,
+.c-universal-header > [class*=theme-] .c-logo,
+.c-universal-header > [class*=theme-] .c-uhf-menu a,
+.c-universal-header > [class*=theme-] .c-uhf-menu button,
+.c-universal-header > [class*=theme-] .c-uhf-nav-link,
+.labelTitle,
+.ms-productpages .pp-category-title,
+.ms-productpages .win-icon,
+#lia-body.ForumTopicPage .lia-component-common-widget-page-title span,
+#lia-body .lia-content .custom-component-wrapper .heading-black,
+#lia-body.ForumTopicPage .lia-content .lia-message-body-content,
+#lia-body .lia-content .lia-quilt-column-common-header .lia-menu-navigation-wrapper .lia-menu-navigation .default-menu-option.default-menu-option,
+#docs-navbar .nav li a,
+#docs-subnavbar .nav li a,
+.c-universal-header > [class*="theme-"] .c-action-trigger,
+.c-universal-header > [class*="theme-"] .c-logo,
+.c-universal-header > [class*="theme-"] .c-uhf-nav-link,
+.c-universal-header > [class*="theme-"] .c-uhf-menu a,
+.c-universal-header > [class*="theme-"] .c-uhf-menu button,
+.c-universal-header > [class*="theme-"] .c-me:not(.msame_open) .msame_Header_name,
+#allRepliesLink .c-heading-5.c-hyperlink,
+.linkband ul li a,
+.js .toc li.rotate[aria-expanded]:before,
+.toc li[aria-expanded]:before,
+.entry-content p,
+.item-details-control-root .ux-item-shortdesc,
+.meta-data-list-container .ux-section-meta-data-list a,
+.meta-data-list-container .ux-section-meta-data-list span,
+.m-highlight-feature .c-heading a,
+.article-card .c-paragraph a,
+.bowtie.aex-style .unified-signup label,
+.bowtie.aex-style .unified-signup,
+#meControlDropdown.msame_Drop_root .msame_Drop_active_name,
+#meControlDropdown.msame_Drop_root .msame_Drop_SI a:link,
+#meControlDropdown.msame_Drop_root .msame_Drop_SI a:visited,
+#meControlDropdown.msame_Drop_root .msame_Drop_AI_name,
+#meControlDropdown.msame_Drop_root .msame_Drop_AI_remove:hover,
+#meControlDropdown.msame_Drop_root .msame_Drop_AI.switch:hover,
+#meControlDropdown.msame_Drop_root .msame_Drop_active_email,
+#meControlDropdown.msame_Drop_root .msame_Drop_AI_email,
+#meControlDropdown.msame_Drop_root .msame_Drop_AI_status,
+.c-uhfh > div:first-child .c-uhf-menu a,
+.c-uhfh > div:first-child .c-uhf-menu button,
+.c-uhfh > div:first-child .c-uhf-nav-link,
+.c-uhfh > [class*="theme-"] .c-me:not(.msame_open) .msame_Header_name,
+#threadMainContent .message-user-info .message-user-info-text .asking-text,
+#threadMainContent .message-user-info .message-user-info-text .message-user-info-link.message-user-info-link-history,
+#ux-header .logoText,
+.gist .gist-meta,
+.pdfDownloadHolder a,
+.toc > ul a,
+.toc > ul span,
+#page-actions label,
+.c-meta-text,
+.stats-line ul li,
+.dates-line ul li,
+.stats-line span,
+.dates-line span
+{
+	color: #fff;
+}
+
+h6,
+span[style*="#424242"],
+.breadCrumb,
+.breadCrumb > span > a,
+.breadCrumb > span > a:link,
+.breadCrumb > span > a:hover,
+.breadCrumb > span > a:visited,
+.LW_CollapsibleArea_Title,
+ul.ops-treecontrol.expandable a,
+.smallgreytext,
+.FVBPubDateLabel,
+div.itemCount,
+.SimpleSearchBox2,
+ul.ops-treecontrol.expandable span.ops-treecontent,
+div.body p span,
+.shell-header-dropdown-content a,
+#ux-header header div.megaBladeToc nav ul.navL1 a,
+#ux-header header div.megaBladeToc nav ul.navL2 a,
+#ux-header header div.megaBladeToc nav ul.navL3 a,
+#breadcrumbDropDownMenu > ul > li > a,
+.type-curation_post .post-title a,
+.type-post:not(tr) .post-title a,
+.type-curation_post .post-title a:hover,
+.type-post:not(tr) .post-title a:hover,
+summary:hover,
+.fusion-modal h5,
+.fusion-post-content h5,
+.fusion-title h5,
+.fusion-widget-area h5,
+.post-content h5,
+.title h5,
+div.body p span,
+h5.title-heading-left span,
+.title,
+.heading-md,
+.shell-header a,
+.shell-header,
+.type-post:not(tr) .post-title,
+#megabladeMainMenu,
+#megabladeItems h5,
+#megabladeItems > li.inactive > a,
+#projectPage .projectTitle,
+#projectPage .sidebar .section .titleBar h3,
+#search-box .search-container,
+.Masthead,
+#contributeSection,
+#sideNav #contributeSection h3,
+.sidebar #contributeSection h3,
+#contributeSection h3,
+.item-details-control-root .ux-item-publisher-link,
+.fusion-content-boxes.content-boxes-icon-on-top .content-container,
+.fusion-content-boxes.content-boxes-icon-on-top .fusion-read-more,
+span.date,
+.CMSvNextComp a,
+.fusion-content-boxes .content-container,
+#projectPage h2.projectSummary
+{
+	color: #fff !important;
+}
+
+
+/* INPUT BOX */
+input#SearchTextBox,
+.bowtie input[type=text],
+.bowtie.modal-dialog input[type=text],
+.modal-dialog .bowtie input[type=text],
+form#SearchForm
+{
+	color: #fff !important;
+	background: #000 !important;
+}
+
+form#SearchForm button
+{
+	filter: invert(100%);
+}
+
+
+/* DIM WHITE ============================== */
+div#tocNav div.tocLevel > a,
+div#tocnav div.tocunselected div.toclevel > a,
+div#body ul#task-nav-list > li > a,
+#page #body ul#task-nav-list > li > a,
+div#body ul#mobile-task-nav-list > li > a,
+#page #body ul#mobile-task-nav-list > li > a,
+.summaryBox,
+#supportedPlatformText,
+#disclaimer
+{
+	color: hsl(0, 0%, 90%);
+}
+
+.toclevel.current a, .Hub .cardText a, .Hub .cardText a:visited, .hubpage .cardText a, .hubpage .cardText a:visited, .landingpage .cardText a, .landingpage .cardText a:visited
+{
+	color: #e5e5e5 !important;
+}
+
+.ms-products .ms-product-list .product-name,
+.UserName a,
+.UserName a:link,
+.UserName a:visited,
+.UserName a:active,
+#LocaleFlyout a,
+#LocaleFlyout a:link,
+#LocaleFlyout a:visited,
+#LocaleFlyout a:active,
+.PassportScarab a,
+.PassportScarab a:link,
+.PassportScarab a:visited,
+.PassportScarab a:active,
+#TargetPanel a,
+#DiscussionsTabPane .threadHeader .label,
+#DiscussionsTabPane .threadHeader .value,
+.unified-baseball-card .baseball-card-header .baseball-card-summary .baseball-card-point-count,
+.unified-baseball-card .baseball-card-header .baseball-card-summary .baseball-card-points-label,
+.unified-baseball-card .baseball-card-header .baseball-card-summary .baseball-card-percentile,
+.unified-baseball-card .baseball-card-affiliate-company,
+.unified-baseball-card-compact-hover .baseball-card-affiliate-company,
+.unified-baseball-card-compact .baseball-card-affiliate-company,
+.threadsnippet .votes,
+#profile-body span,
+#profile-body div
+{
+	color: hsl(0, 0%, 90%) !important;
+	background-color: inherit !important;
+}
+
+
+/* CS UNSET ============================== */
+.item-details-main-content,
+.gray,
+#ux-header .search-block,
+.theme_night .fyre .fyre-comment > p,
+div.post-content.column,
+.entry-content.single div,
+mee-banner .amc-banner
+{
+	background: unset !important;
+}
+
+
+/* CS NONE ============================== */
+.codeCaption,
+.codeSnippetContainer,
+:nth-child(2n).rssFeedItem,
+.inner,
+li.message,
+.searchbar .searchboxinnercontainer,
+#relatedThreadsLinkContainer,
+#announcementsContainer,
+#msdn-technet-en-thread #threadPageContainer li.message div.menu.thread,
+#msdn-technet-en-thread #threadPageContainer li.message div.menu.message,
+div.expandedThreadContainer li.message div.menu.thread,
+div.expandedThreadContainer li.message div.menu.message,
+form,
+.dlc-v73 .end-social,
+.download-main-article .fileinfo,
+div.popup,
+.n29d-shadow-top,
+.n29d-content-pane,
+div.kb-notice-section.section.ng-scope,
+div.search-container.other,
+div.container.quick-nav.ng-scope.other,
+#JelloWrapper,
+.shell-header-dropdown-label > a,
+#page,
+#BodyBackground,
+div.shell-header,
+main,
+.bg-wrap,
+.feature,
+.hero,
+.products,
+.services,
+.card,
+.community,
+.linkband,
+table.home-header,
+.sidebar.col-md-4,
+.main-content.col-md-8,
+div#BrandLogo,
+#journeys,
+.journey-step,
+.journey-step-elements li > a,
+.journey-step-elements li > a:hover,
+.features,
+.siteResources,
+#hdr,
+.software-download .banner,
+.software-download .title,
+#site-header-global,
+.wp-embed,
+.picchu .white-bgc,
+#security-landing .m-security-card,
+.background-grey,
+.home .getting-started .mask,
+.updates-banner,
+.home .value-props .value-prop:hover,
+.lia-top-quilt,
+#lia-body.ForumTopicPage .lia-content .lia-top-quilt,
+#lia-body.CategoryPage .lia-quilt-category-page-supergroup .lia-quilt-row-main .lia-quilt-column-side-content,
+.strip,
+#threadMain .thread-message-separator-line,
+#threadMain .separator-line,
+.alley,
+#projectBody,
+#projectDetails,
+#BrandDisplayText,
+.linkband,
+.c-universal-footer > section,
+.c-universal-footer > div,
+#search-option .search-filter,
+.single .primary,
+.answer-list .widget-content .answer-container,
+.answer-list .widget-content .reply-container,
+.widget,
+.panel-default,
+.pageIntro,
+.page,
+.div_grey,
+#main,
+.section,
+.bg-gray-1
+{
+	background: rgba(0, 0, 0, 0);
+}
+
+.msame_open .msame_Header,
+#DiscussionsTabPane .threadHeader,
+#megabladeContainer .bladeItemMenuContainer,
+.scriptcode,
+#searchContent .searchbar .searchboxinnercontainer,
+#threadsearchbarContainer .searchbar .searchboxinnercontainer,
+td.name,
+td.num,
+.Search .SearchBox,
+#msdn-technet-en-home div.tagcontainer,
+tr.itemRow.editorPickedItem,
+div.profile-leaderboard,
+.TechNetTroubleShootingPanel tr td,
+.SimpleSearch,
+.finder_holder,
+.posts:after,
+.user-account,
+.newSubscriberDownloadProducts,
+ul.ng-scope li a,
+p span,
+.hero-base.hero-txt-dk.hero-std.hero-single-cell.hero-no-stack,
+.win-color-bg-10,
+div#section-banner,
+li.message div.body blockquote,
+li.message div.body div.quote
+{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.codeSnippetContainerTabSingle,
+div.msame_Header_name,
+.table th,
+#megabladeContainerCenter,
+.hljs
+{
+	color: #fff;
+	background: rgba(0, 0, 0, 0);
+}
+
+.n29d-nav li.n29d-active a,
+.n29d-nav a,
+.n29d-nav,
+.n29d-header ol,
+.n29d-header ul,
+.n29d-nav-wrapper,
+.n29d-nav li
+{
+	color: #fff !important;
+	background: rgba(0, 0, 0, 0);
+}
+
+
+/* CS BLACK ============================== */
+#mobileMenu #tocDropdownMenuButton #tocDropdownMenu,
+#mobileMenu #tocDropdownMenuButton div.tocLabel,
+div#body ul#mobile-task-nav-list,
+#page #body ul#mobile-task-nav-list,
+.alert-band .alert.alert-info,
+.content-article .sbody-error,
+#shell-header .shell-header-nav .shell-header-dropdown-tab .shell-header-dropdown-tab-label a,
+.shell-header-dropdown.active .shell-header-dropdown-label > a,
+#Fragment_HeroHeadlines,
+#Fragment_ResourceBandcontent,
+.navL1,
+.navL2,
+.inactive,
+#ux-header header div.row nav ul.navL1 > li.active > a,
+#ux-header header div.row nav ul.navL2 > li.active > a,
+#ux-header header div.row nav ul.navL3 > li.active > a,
+#ux-header header div.megaBladeToc nav ul.navL1,
+#ux-header header div.megaBladeToc nav ul.navL2,
+#ux-header header div.megaBladeToc nav ul.navL3,
+.f1-footer,
+.mscom-popup-content-header,
+.mscom-popup .mscom-popup-fullwidth > .mscom-popup-body > .mscom-popup-layout,
+.shell-header-user #meControl .msame_Header:hover,
+.shell-header-user #meControl .msame_Header:focus,
+.msame_Drop_content,
+.c-universal-header > div:first-child .c-uhf-menu > ul,
+.c-universal-header > div:first-child .c-uhf-menu > ul > li > :focus,
+.c-universal-header > div:first-child .c-uhf-menu > ul > li > :hover,
+.c-universal-header > div:first-child .c-uhf-menu > ul > li > [aria-expanded="true"],
+.c-universal-header > div:first-child .c-uhf-menu > ul > li > ul,
+.c-universal-header > div:first-child .c-uhf-menu > ul > li > ul:focus,
+.c-universal-header > div:first-child .c-uhf-menu > ul > li > ul:hover,
+.SearchBar,
+.slideoutmenupanel,
+.productsbycategory .slideoutmenupanel .categoryrow,
+#megabladeContainer .bladeItemMenu,
+.shell-header-dropdown-tab-list,
+.contentWrapper .inReplyTo,
+#overlay_indoctoc,
+.auto-suggest-results.ng-isolate-scope,
+div.NOTE,
+ul.popup,
+div.post-content.column,
+div.sidebar.column,
+.c-universal-header > div:first-child,
+.dropNavForSearch ul,
+#Fragment_HeroHeadlines,
+#hdr-fb-main,
+.shell-header-dropdown-content,
+#flot-points-hover,
+#flot-pie-hover,
+.rankings-left,
+.rankings-right .rank-cell,
+#MainContent .statistic-group,
+.ContextMenuPanel,
+.c-universal-footer > div,
+.c-universal-footer > section,
+.c-universal-footer nav,
+.c-universal-header > div + div .c-uhf-menu > button[aria-expanded=true],
+.c-universal-header > div + div .c-uhf-menu > ul,
+.c-universal-header > div + div .c-uhf-menu > ul > li > ul,
+#Fragment_HeroHeadlines,
+.header-dropdown-content,
+.srchbox,
+.picchu .msr-light-gray-bgc,
+.picchu .dropdown select,
+.download-main-article .select-and-down,
+.shell-category-header.cat-theme-blue .c-top-nav-link.current,
+#sidebar .sidebar-footer,
+#sidebar .sidebar-header,
+.todayToolbar-inner,
+.listItem .listItem-inner:hover,
+.fyre-lfep2,
+.fyre-lfep2.fyre-profile .fyre-profile-section,
+.fyre-lfep2 .fyre-profile-body .fyre-profile-comments-header,
+.fyre-lfep2 .fyre-profile-body .fyre-profile-comment,
+.fyre-lfep2 .fyre-profile-footer,
+#topNav,
+.ocpArticleContent .ocpAlert,
+#contentArea,
+.oneMscomFooterV3,
+.NavBarSection,
+.topNav li div.menuBackground,
+.login_panel,
+.theme-dark a.c-call-to-action,
+.theme-light .theme-dark a.c-call-to-action,
+.theme-dark a.c-call-to-action:focus:not(.x-hidden-focus),
+.theme-dark a.c-call-to-action:hover,
+.theme-light .theme-dark a.c-call-to-action:focus:not(.x-hidden-focus),
+.theme-light .theme-dark a.c-call-to-action:hover,
+.content-article .kb-notice-section,
+.Nav_Sidebar,
+.issueBlock,
+.bg-notice,
+#searchTextboxBox,
+.ResultsHeaderTD,
+#tableContainer table,
+#tableContainer table tr:hover,
+.flatLightBlueButton,
+#tabBody,
+#tabSection,
+.tab,
+.tags .tag,
+#ux-header div.upperBand,
+#HeaderSearchForm,
+#HeaderSearchTextBox,
+.header-top-bar-links li a,
+.ms-productpages .pp-section-header,
+#lia-body.CategoryPage .lia-quilt-row-banner-content .lia-panel-content,
+#lia-body.CommunityPage .lia-quilt-row-banner-content .lia-panel-content,
+#pmg-global-header,
+#lia-body .lia-content #home-footer,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post,
+#lia-body .lia-content .category-recent-conversations-wrapper .title-bar,
+.lia-quilt-column-side-content .trending-boards,
+#lia-body .custom-blog-posts-latest,
+.lia-panel .lia-panel-content,
+#lia-body.CommunityPage .custom-users-online .lia-component-users-widget-users-avatars-online .lia-panel-heading-bar-wrapper .lia-panel-heading-bar,
+#lia-body.ForumTopicPage .MessageView.lia-message-view-forum-message.lia-message-view-display,
+#lia-body.ForumTopicPage .lia-panel-message,
+#lia-body.ForumTopicPage .lia-content .custom-auth-latest-threads-component-wrapper,
+#lia-body .lia-content .lia-quilt-column-common-header .lia-menu-navigation-wrapper .lia-menu-navigation .dropdown-default-item,
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel .lia-panel-heading-bar,
+#lia-body.CategoryPage .lia-quilt-category-page-supergroup .category-board-browser-wrapper .custom-category-board-browser-component,
+.KudosLeaderboardPage .TopUsersLeaderBoard .lia-quilt-kudos-leader-board-author-item .lia-quilt-column-user-search-result > .lia-quilt-column-alley,
+.KudosLeaderboardPage .TopUsersLeaderBoard .lia-quilt-kudos-leader-board-giver-item .lia-quilt-column-user-search-result > .lia-quilt-column-alley,
+#threadMain .message-user-info-content-holder .c-heading-4,
+#threadMain .thread-message-content-reply-action-button,
+.info-panel,
+.rsp-history-table table > tbody > tr > td,
+.rsp-history-table table tr th,
+.c-context-menu > li span,
+.c-universal-header .brand-blue .c-uhf-menu > button[aria-expanded="true"],
+.c-universal-header .brand-blue .c-uhf-menu > ul,
+#search-form .btn,
+.docs #confirmation,
+.extensions .gallery-item-card,
+.carousel,
+.item-details-control-root .ux-section-banner,
+.ux-item-details,
+.c-universal-header > [class*="theme-"] .c-uhf-menu > button[aria-expanded="true"],
+.c-universal-header > [class*="theme-"] .c-uhf-menu > ul,
+.article-card,
+.m-highlight-feature.f-align-left > div,
+.panel-danger,
+.c-uhfh > div:first-child,
+.c-uhfh > div:first-child .c-uhf-menu > button[aria-expanded="true"],
+.c-uhfh > div:first-child .c-uhf-menu > ul,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > a:hover,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > a:focus,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > button:hover,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > button:focus,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > [aria-expanded="true"],
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > ul,
+.c-uhfh > div:first-child .c-uhf-menu > ul > li > :focus,
+.c-uhfh > div:first-child .c-uhf-menu > ul > li > :hover,
+.c-uhfh > div:first-child .c-uhf-menu > ul > li > [aria-expanded="true"],
+.c-uhfh > div:first-child .c-uhf-menu > ul > li > ul,
+.c-uhfh > div:first-child .c-uhf-menu > ul > li > ul :focus,
+.c-uhfh > div:first-child .c-uhf-menu > ul > li > ul :hover,
+.c-uhfh > div:first-child .c-uhf-menu > button:hover,
+.c-uhfh > div:first-child .c-uhf-menu > button:focus,
+.site-resources,
+.c-uhfh .brand-blue,
+.wp-caption-text,
+.theme-light .c-search input[type=search]:focus,
+.form-searchbox input[type=text]:active,
+.form-searchbox input[type=text]:focus,
+.form-searchbox input[type=text]:hover,
+.alert-info,
+.btn-tab,
+.btn-tab:active,
+.btn-tab.active,
+.open > .dropdown-toggle.btn-tab,
+.btn-tab:active:hover,
+.btn-tab.active:hover,
+.open > .dropdown-toggle.btn-tab:hover,
+.btn-tab:active:focus,
+.btn-tab.active:focus,
+.open > .dropdown-toggle.btn-tab:focus,
+.btn-tab:active.focus,
+.btn-tab.active.focus,
+.open > .dropdown-toggle.btn-tab.focus,
+.internav,
+.leftcap,
+.header-top-bar,
+.m-blog-post,
+.m-preview .m-preview-content,
+.swim-gray,
+.site-header-main,
+.tags a,
+.help-footer,
+.home-page-card-content
+{
+	background: #000;
+}
+
+p[style*="white"],
+.kb-sb,
+.main-navigation ul,
+.main-navigation li,
+.unified-baseball-card .baseball-card-header .baseball-card-summary,
+.unified-baseball-card .baseball-card-header .crop,
+.scriptcode .title > span,
+.main-nav,
+.post-archive,
+.web-feature[open] .web-feature__toggle,
+.nav-bar .navbar__submenu,
+button[type=submit] + [role=menu] label,
+button[type=menu] + [role=menu] label,
+button[type=menu] + menu menuitem,
+.meta-box,
+div#free-dev-offers,
+.fusion-fullwidth.fullwidth-box.fusion-fullwidth-1.fusion-parallax-none.nonhundred-percent-fullwidth,
+.fusion-fullwidth.fullwidth-box.fusion-fullwidth-3.fusion-parallax-none.nonhundred-percent-fullwidth,
+.c-universal-header > div + div,
+#megabladeMainMenu:hover,
+#megabladeContainerCenter.active #megabladeMainMenu,
+#megabladeContainer #megabladeContainerCenter.active ul#megabladeItems li.bladeItemWithMenu.active div.navpage,
+.ClearFloat.row.activityrow.ExpandedRow,
+#idAccountActivityV2 .activityrow,
+#idAccountActivityV2 .activityrow:hover,
+#idAccountActivityV2 .activitycontent,
+.workSpace,
+.metro,
+.swimlane,
+#threadMain .thread-message-content-reply-message,
+.c-universal-header .brand-blue,
+li.message div.body blockquote,
+.c-universal-header > div:first-child,
+.width-100 .fullwidth-box,
+.width-100 .fusion-section-separator,
+#downloads-boxes .content-wrapper-background,
+.fusion-content-boxes.content-boxes-icon-on-top .content-container,
+.accepted-reply,
+.post-content > #feature,
+.content-boxes .col,
+.ux-section-details-tabs .ms-Pivot
+{
+	background-color: #000 !important;
+}
+
+div#eula,
+#eulaPage,
+.posts-filter,
+input,
+input:focus,
+optgroup,
+textarea,
+select:focus,
+textarea:focus,
+select:active,
+.form-search input[type=search],
+#search-box input[type="text"].search-text,
+#search-box input[type="text"].search-text:focus,
+div.download-summary,
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus,
+.SearchBar input.searchtermtext,
+.SearchBar .productsatoz,
+.SearchBar .productsbycategory,
+.defaulttext,
+.srchbox .stxtcell > input,
+.srchbox #searchImageCell,
+#lia-body .custom-category-search-form .custom-lia-search .SearchForm .lia-search-input-wrapper .search-input,
+#lia-body .custom-category-search-form .custom-lia-search .SearchForm .lia-search-input-wrapper,
+#lia-body .community-header-component .custom-lia-search .lia-component-common-widget-search-form .SearchForm.lia-form-inline .search-input,
+#lia-body .community-header-component .custom-lia-search .lia-component-common-widget-search-form .SearchForm .lia-search-input-wrapper,
+.forumDetailsTip,
+input,
+textarea,
+#MainContent #msdn-technet-en-home a#seeAnnouncementsLink,
+#MainContent #msdn-technet-en-thread a#seeAnnouncementsLink,
+#MainContent #msdn-technet-en-thread a #seeAnnouncementsText,
+#msdn-technet-en-thread #threadPageActionsContainer #relatedThreadCountContainer a,
+#quickLinks ul.popup,
+.abusive ul.popup,
+.base-superfeature-content .read-more,
+.type-post .superfeature-content .read-more,
+.type-post .superfeature-content-right .read-more,
+.post-text-only,
+.post-horizontal,
+.post-vertical,
+.theme-dark .theme-light .c-search input[type=search]:hover,
+.theme-light .c-search input[type=search]:hover,
+.c-auto-suggest .c-menu .c-menu-item > a,
+.c-auto-suggest .c-menu .c-menu-item > span,
+.m-auto-suggest .c-menu .c-menu-item > a,
+.m-auto-suggest .c-menu .c-menu-item > span
+{
+	color: #fff !important;
+	background-color: #000;
+}
+
+#ux-header header div.row #drawer *,
+#breadcrumbDropDownMenu,
+.toc .selectedHolder > ul,
+.dropdown-content
+{
+	color: #fff;
+	background-color: #000;
+}
+
+
+/* CS Txt*/
+input,
+optgroup,
+textarea,
+ul.side-nav .selected-nav a,
+.js .toc li.selectedHolder.rotate[aria-expanded]:before,
+.toc li.selectedHolder[aria-expanded]:before,
+.Right_Nav_Title,
+.div_rl_h,
+.c-uhfh .brand-purple .c-uhf-nav-link,
+.c-uhfh > div + div .c-logo span,
+.c-uhfh .brand-neutral .c-action-trigger,
+.c-uhfh .brand-neutral .c-logo,
+.c-uhfh .brand-neutral .c-uhf-nav-link,
+.c-uhfh .brand-neutral .c-uhf-menu a,
+.c-uhfh .brand-neutral .c-uhf-menu button,
+.c-uhfh .brand-neutral .c-me:not(.msame_open) .msame_Header_name,
+.fyre-editor .fyre-editor-toolbar .goog-toolbar > div.fyre-button-right.fyre-post-button .fyre-button-right-outer-box .fyre-button-right-inner-box,
+.c-uhfh .brand-purple .c-action-trigger,
+.c-uhfh .brand-purple .c-logo,
+.c-uhfh .brand-purple .c-uhf-nav-link,
+.c-uhfh .brand-purple .c-uhf-menu a,
+.c-uhfh .brand-purple .c-uhf-menu button,
+.c-uhfh .brand-purple .c-me:not(.msame_open) .msame_Header_name
+{
+	color: #e5e5e5;
+}
+
+#blog-logo a,
+#blog-logo-text .site-description
+{
+	color: #e5e5e5 !important;
+}
+
+
+/* GRAY COLORS */
+.tabHeaders div.current,
+#MainContent #msdn-technet-en-home a#seeAnnouncementsLink:hover,
+#MainContent #msdn-technet-en-thread a#seeAnnouncementsLink:hover,
+#msdn-technet-en-thread #threadPageActionsContainer #relatedThreadCountContainer a:hover,
+#ux-header div.TocNavigation a:hover,
+.header-fragments ul.navigation li a:hover,
+.dlc-v73 .dlc-hp-icons .class_icon:hover,
+.dlc-v73 .dlc-hp-icons .class_icon:active,
+.dlc-v73 .dlc-hp-icons a:hover,
+.dlc-v73 .dlc-hp-icons a:active,
+.mscom-accordion .mscom-accordion-item-link:hover
+{
+	background-color: gray;
+}
+
+.gist .blob-wrapper table,
+.gist .gist-meta
+{
+	background-color: #222 !important;
+}
+
+
+/* CS BORDERS */
+.editorPickedItem > td
+{
+	border-top: 6px solid gray;
+}
+
+input[type="search"]
+{
+	border: 1px solid #424242;
+}
+
+.search-field
+{
+	border: 1px solid hsl(146, 100%, 60%);
+}
+
+body.blog-id-1 .main-footer,
+body.blog-id-2 .main-footer
+{
+	border-top-color: hsl(146, 100%, 60%);
+}
+
+div.answers > h3,
+div.replies > h3
+{
+	border-top: solid 2px hsl(146, 100%, 60%);
+}
+
+div#body ul#task-nav-list > li.active,
+#page #body ul#task-nav-list > li.active,
+div#body ul#mobile-task-nav-list > li.active,
+#page #body ul#mobile-task-nav-list > li.active,
+div#rightNavigationMenu div#indoc_toc ul#indoc_toclist li.active
+{
+	border-left: solid 3px hsl(146, 100%, 60%);
+}
+
+div#tocnav div.tocselected,
+ul.ops-treecontrol.expandable .ops-treelevel-0.ops-treenode-related,
+div#tocNav div.tocSelected,
+div#tocDropdownMenu div.tocSelected,
+#breadcrumbDropDownMenu > ul > li.current
+{
+	border-left: 4px solid hsl(146, 100%, 60%);
+	background-color: #000;
+	padding-right: 5px;
+}
+
+.tocPadding .toclevel a
+{
+	color: #d1d2db !important;
+}
+
+summary,
+.NavBarSection
+{
+	border-bottom: 1px solid gainsboro;
+}
+
+#ux-header header div.row nav ul.navL1 > li > a,
+#ux-header header div.row nav ul.navL2 > li > a,
+#ux-header header div.row nav ul.navL3 > li > a,
+#ux-header header div.toc nav ul.navL1 > li > a:hover
+{
+	border-bottom: solid 1px #2e2e2e;
+}
+
+#ux-header header div.toc nav ul.navL1 > li.current > a:hover,
+.c-pivot:not(.f-disabled) > header > a.f-active,
+.messageContent
+{
+	border-bottom: solid 4px hsl(146, 100%, 60%) !important;
+}
+
+li.message div.voting,
+.n29d-search-header
+{
+	border: 1px solid #999 !important;
+}
+
+div.replies
+{
+	border-top: none !important;
+}
+
+.theme_night .doc-outline li.selected
+{
+	border-color: hsl(146, 100%, 60%);
+}
+
+.btn-default,
+.btn.btn-primary,
+button.btn-primary,
+input[type=button].btn-primary,
+input[type=reset].btn-primary,
+input[type=submit].btn-primary,
+div#msdn-technet-en-thread div#threadPageContentContainer,
+#mobile-inpage-toc li.active > a,
+aside.toc li.active > a
+{
+	border: none;
+}
+
+
+/* END BORDERS ============================== */
+
+/* CS TABLE */
+div.alert th,
+th,
+td,
+.content-article table td:first-child
+{
+	background-color: hsla(0, 0%, 17%, 1);
+	color: #fff;
+}
+
+td[style*="rgb(247, 247, 247)"],
+td[style*="background-color:#f7f7f7"],
+div[style*="background-color:white"]
+{
+	background-color: hsla(0, 0%, 17%, 1) !important;
+	color: #fff;
+}
+
+div.alert,
+.kb-article .kb-banner
+{
+	background-color: #0d0d0d;
+	color: #b6b6b6 !important;
+	font-style: italic;
+}
+
+.codeHeader
+{
+	background-color: #1f232a;
+	color: #fff;
+	border: 1px solid #242424;
+}
+
+p a,
+a:link,
+a:visited,
+.date,
+.topic a,
+.topic a:link,
+div#leftNav a,
+div#leftNav a:link,
+div#leftNav a:visited,
+#ux-header a,
+#ux-header a:visited,
+.pdfDownloadHolder a:link,
+.pdfDownloadHolder a:visited,
+.toc a:link,
+.toc a:visited,
+#MainContent a,
+#MainContent a:link,
+#MainContent a:visited,
+div#MainContent a:active,
+div#MainContent a:visited,
+div#MainContent a,
+div#MainContent a:link,
+.quick-nav a,
+.has-site-navigation .main-nav .container > ul > li.ms-current-blog > a,
+.button--icon,
+.button--search:hover,
+.button--text,
+.button--text:active,
+.button--text:hover,
+a:visited,
+.web-feature__toggle[class*=icon--]::before,
+#popular-download ul.downloadList .index,
+.action-list a i,
+#featuredcontent li a,
+#featuredcontent a,
+a#side-nav-link-2,
+a#shell-header-shopping-cart,
+.faq-section .faq-chevron,
+.alley a,
+.alley a:link,
+.alley a:visited,
+.icon-tip:before,
+.features a:active,
+.features a:link,
+.features a:visited,
+.c-universal-header > div:first-child .c-uhf-menu a,
+.c-universal-header > div:first-child .c-uhf-menu button,
+#bodyContentPane a,
+a.mscom-link.c-call-to-action.c-glyph span,
+.c-glyph:after,
+.c-glyph:before,
+.c-glyph:hover:after,
+.c-glyph:hover:before,
+#profile-body .statistic-header,
+.software-download .template-blue a,
+.software-download .banner a,
+.software-download .banner a:link,
+.software-download .banner a:visited,
+.software-download .banner a:active,
+body.blog-id-2 .post-content a,
+body.blog-id-2 .sidebar a,
+body.blog-id-2 .post-header .author a,
+body.blog-id-2 .read-more-inline,
+body.blog-id-1 .read-more-inline,
+.picchu .msr-post-sidebar .subtitle a,
+.picchu .publications-accordion .publication h5 a,
+.picchu.search .subtitle a,
+.c-rating .c-glyph:after,
+.c-content-toggle button,
+.rwd .footer-links .grid-container .grid-row .list-of-links ul li a,
+.topNav li ul li a,
+span.category,
+div#rightNavigationMenu div#indoc_toc ul#indoc_toclist li.active a,
+.function-area .ops-socialsharing-dropdownbtn:active,
+.function-area .ops-socialsharing-dropdownbtn:focus,
+.function-area .ops-socialsharing-dropdownbtn:hover,
+ul.side-nav .nav-link a,
+div#body ul#task-nav-list > li.active > a,
+#page #body ul#task-nav-list > li.active > a,
+div#body ul#mobile-task-nav-list > li.active > a,
+#page #body ul#mobile-task-nav-list > li.active > a,
+.msame_unauth .msame_Header_name:hover,
+#eulaPage .eulaPagebuttons > button,
+div.profile-leaderboard div.profile-leaderboard-item > div.profile-leaderboard-container .profile-leaderboard-value,
+.featured-post a.post-title,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post .message-subject > a,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post .details .details-container .user-login a,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post-reply .details .details-container .user-login a,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post-reply .details .details-container .post-author-login a,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post .message-body a,
+#lia-body .lia-content .custom-auth-latest-threads-component-wrapper .thread-details .thread-subject,
+#lia-body .lia-content .custom-auth-latest-threads-component-wrapper .thread-details .thread-source,
+#lia-body .lia-content .custom-auth-latest-threads-component-wrapper .thread-details .board-link,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post-reply .reply-body .reply-text a,
+#lia-body.ForumTopicPage .lia-component-reply-list .user-login a,
+#lia-body.ForumTopicPage .post-author-login a,
+#lia-body.ForumTopicPage .BreadCrumb li.lia-breadcrumb-node.crumb .lia-link-navigation,
+#lia-body.IdeaPage .BreadCrumb li.lia-breadcrumb-node.crumb .lia-link-navigation,
+.custom-common-widget-breadcrumb .custom-common-widget-breadcrumb-wrapper .home-nav-link,
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel.negative .lia-panel-content a,
+#lia-body .custom-blog-posts-latest .carousel-inner > .item .details .details-container .author-name a,
+#lia-body .custom-blog-posts-latest .carousel-inner > .item .details .details-container .blog-name a,
+#lia-body .custom-blog-posts-latest .carousel-inner > .item .blog-title a,
+#docs-subnavbar .nav > .active > a,
+.msaActionText,
+.msaActionText:focus,
+.msaActionText:hover,
+a.c-button[role=button].f-lightweight,
+button.c-button.f-lightweight,
+a.c-button[role=button].f-lightweight:focus,
+a.c-button[role=button].f-lightweight:hover,
+button.c-button.f-lightweight:focus,
+button.c-button.f-lightweight:hover,
+button.c-action-trigger,
+a.c-action-trigger,
+#footer .links a,
+.icon-comments:before,
+.icon-editor:before,
+.docon-comment-lines:before,
+#locale-selector-link,
+.function-area .ops-socialsharing-dropdownbtn,
+div#content a,
+div#content a:visited,
+.bowtie-install,
+a:not(.ms-Button):visited,
+.wds-call-to-action .cta-link,
+.c-pagination li > a,
+.c-pagination li > span,
+.m-pagination li > a,
+.m-pagination li > span,
+.child-level-below-nav .blog-title a,
+.PsTitle,
+body.blog-id-1 .post-header .author a,
+body.blog-id-10 .post-header .author a,
+body.blog-id-11 .post-header .author a,
+body.blog-id-2 .post-header .author a,
+body.blog-id-21 .post-header .author a,
+body.blog-id-3 .post-header .author a,
+body.blog-id-31 .post-header .author a,
+body.blog-id-33 .post-header .author a,
+body.blog-id-4 .post-header .author a,
+body.blog-id-43 .post-header .author a,
+body.blog-id-5 .post-header .author a,
+body.blog-id-6 .post-header .author a,
+body.blog-id-7 .post-header .author a,
+body.blog-id-8 .post-header .author a,
+body.blog-id-9 .post-header .author a,
+body.wp-admin .post-header .author a,
+.post-content a,
+.sidebar a,
+body.blog-id-1 .post-content a,
+body.blog-id-1 .sidebar a,
+body.blog-id-10 .post-content a,
+body.blog-id-10 .sidebar a,
+body.blog-id-11 .post-content a,
+body.blog-id-11 .sidebar a,
+body.blog-id-2 .post-content a,
+body.blog-id-2 .sidebar a,
+body.blog-id-21 .post-content a,
+body.blog-id-21 .sidebar a,
+body.blog-id-3 .post-content a,
+body.blog-id-3 .sidebar a,
+body.blog-id-31 .post-content a,
+body.blog-id-31 .sidebar a,
+body.blog-id-33 .post-content a,
+body.blog-id-33 .sidebar a,
+body.blog-id-4 .post-content a,
+body.blog-id-4 .sidebar a,
+body.blog-id-43 .post-content a,
+body.blog-id-43 .sidebar a,
+body.blog-id-5 .post-content a,
+body.blog-id-5 .sidebar a,
+body.blog-id-6 .post-content a,
+body.blog-id-6 .sidebar a,
+body.blog-id-7 .post-content a,
+body.blog-id-7 .sidebar a,
+body.blog-id-8 .post-content a,
+body.blog-id-8 .sidebar a,
+body.blog-id-9 .post-content a,
+body.blog-id-9 .sidebar a,
+body.wp-admin .post-content a,
+body.wp-admin .sidebar a,
+.article-container a:link,
+.article-container a:visited,
+.icon-share:before,
+a.c-call-to-action.c-glyph.f-lightweight,
+.fyre .fyre-comment a,
+.fyre a,
+.header-nav li,
+.header-nav li a,
+.action-list a,
+.action-list a:link,
+.c-pivot:not(.f-disabled) > header > a.f-active,
+.c-pivot > div > a,
+.c-pivot > header > a,
+.article-container a:not(.c-button):link,
+.article-container a:not(.c-button):visited,
+.article-container a:not(.f-image):not(.btn):not(.c-button):focus,
+.article-container a:not(.f-image):not(.btn):not(.c-button):hover,
+.theme_night .doc-outline a:visited,
+#masthead a,
+#projectPage #projectInfo a,
+.article-container a:not(.c-button):not(.c-call-to-action):link,
+.article-container a:not(.c-button):not(.c-call-to-action):visited
+{
+	color: hsl(146, 100%, 60%);
+}
+
+
+/* CS ACCENT = */
+
+/*  FORCE ACCENT COLOR ============================== */
+#profile-body .statistic-header,
+.software-download .banner h1,
+.software-download .banner h2,
+.software-download .banner h3,
+a.cHelpALink,
+a.cHelpALink:hover,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post .details .details-container .source > a,
+#docs-navbar > .nav > .active .active > a,
+#docs-navbar > .nav > .active > a,
+.c-me .msame_unauth .msame_Header_name:hover,
+a.author span,
+a.author:hover span,
+.content-box-heading,
+.c-drawer > button,
+font[color="blue"],
+span[style*="#00749e"],
+.m-search-results .f-result-item .c-subheading-3 a
+{
+	color: hsl(146, 100%, 60%) !important;
+}
+
+.button,
+.button:hover,
+#ux-header div.TocNavigation a.active,
+.internav a.active,
+.internav a.active:link,
+.internav a.active:visited,
+a.btn.askQuestionLink,
+ul.navigation li.nav-wiki a,
+ul.side-nav .selected-nav a,
+body.blog-id-1 .pagination .page-numbers.current,
+.toc .selectedHolder,
+.toc .selectedHolder .selected,
+.n29d-nav a:hover,
+.n29d-nav li.n29d-active a:hover,
+.alphabetsrow a,
+.shell-header a:hover,
+.productsbycategory .slideoutmenupanel .categoryrowselected,
+.productsbycategory .slideoutmenupanel .categoryrow:hover,
+.sortText .sortbyText,
+.DownloadsFilterContent .filterheaderlabel,
+.shell-header-dropdown-tab .shell-header-dropdown-tab-label:hover,
+.shell-header-dropdown-tab .shell-header-dropdown-tab-label:focus,
+.shell-header-dropdown-label a:hover,
+#ux-header header div.toc nav ul.navL1 > li.current.active > a,
+#ux-header header div.toc nav ul.navL2 > li.current.active > a,
+#ux-header header div.row nav ul.navL1 > li.inactive > a:hover,
+#ux-header header div.row nav ul.navL2 > li.inactive > a:hover,
+#ux-header header div.row nav ul.navL3 > li.inactive > a:hover,
+.shell-header a:hover,
+.c-auto-suggest .c-menu .c-menu-item > a:hover,
+.c-auto-suggest .c-menu .c-menu-item > span:hover,
+.m-auto-suggest .c-menu .c-menu-item > a:hover,
+.m-auto-suggest .c-menu .c-menu-item > span:hover,
+.pivotTabs li.selected,
+#hdr-nav-large-primary a:hover,
+.c-universal-header > div + div .c-uhf-menu > ul > li > [aria-expanded=true],
+.c-universal-header > div + div .c-uhf-menu > ul > li > a:focus,
+.c-universal-header > div + div .c-uhf-menu > ul > li > a:hover,
+.c-universal-header > div + div .c-uhf-menu > ul > li > button:focus,
+.c-universal-header > div + div .c-uhf-menu > ul > li > button:hover,
+.c-universal-header > div + div .c-uhf-menu > ul > li > ul > li:focus,
+.c-universal-header > div + div .c-uhf-menu > ul > li > ul > li:hover,
+body #headerUniversalHeader .c-call-to-action.c-glyph,
+.software-download .button-blue,
+.software-download .button-main,
+.software-download .banner a:hover,
+.software-download .banner a:link:hover,
+.software-download .banner a:visited:hover,
+.software-download .banner a:active:hover,
+.software-download .button-blue:hover,
+.software-download .button-main:hover,
+body.blog-id-2 .pagination .page-numbers.current,
+.download-main-article .select-and-down .dl,
+.c-universal-header > div:first-child .c-uhf-menu > button:focus,
+.c-universal-header > div:first-child .c-uhf-menu > button:hover,
+.c-universal-header .theme-light .c-uhf-menu > button[aria-expanded=true],
+.c-universal-header .brand-blue .c-uhf-nav-link:focus,
+.c-universal-header .brand-blue .c-uhf-nav-link:hover,
+.c-universal-header > [class*=theme-] .c-uhf-menu > ul > li > ul > li :focus,
+.c-universal-header > [class*=theme-] .c-uhf-menu > ul > li > ul > li :hover,
+#lia-body .lia-content .lia-button.reply-action-link,
+#lia-body .lia-paging-full .lia-link-navigation,
+button.c-button[type=submit],
+.c-universal-header .brand-blue .c-logo:focus,
+.c-universal-header .brand-blue .c-logo:hover,
+.c-universal-header .brand-blue .c-uhf-menu > button:focus,
+.c-universal-header .brand-blue .c-uhf-menu > button:hover,
+.btn.btn-outline.linkalike:link,
+.btn.btn-outline.linkalike:visited,
+.table.table-link-highlight tr:hover a.btn.btn-outline:link,
+.table.table-link-highlight tr:hover a.btn.btn-outline:visited,
+a.btn.btn-outline:link,
+a.btn.btn-outline:visited,
+.shell-category-header.cat-theme-blue .shell-category-header-cta-wrapper .category-cta-button,
+#mobile-inpage-toc li.active > a,
+aside.toc li.active > a,
+.btn.btn-primary.linkalike:link,
+.btn.btn-primary.linkalike:visited,
+.table.table-link-highlight tr:hover a.btn.btn-primary:link,
+.table.table-link-highlight tr:hover a.btn.btn-primary:visited,
+a.btn.btn-primary:link,
+a.btn.btn-primary:visited,
+#submit,
+.dropbtn,
+.dropdown a:hover,
+.dropdown a:focus,
+.fusion-button,
+.post-password-form input[type="submit"],
+.wpcf7-submit,
+.gform_wrapper .gform_button,
+.gform_wrapper .button,
+.woocommerce .checkout #place_order,
+.bbp-submit-wrapper .button,
+.meta-data-list-container a.meta-data-list-link:hover,
+.meta-data-list-container a.meta-data-list-link:focus,
+#MainContent #askaquestion a.askQuestionLink,
+#MainContent #askaquestion a.askQuestionLink:hover,
+.c-uhfh .brand-purple,
+.c-uhfh div[class*="brand-"] .c-uhf-nav-link:hover,
+.c-uhfh .brand-purple .c-logo:hover,
+.c-uhfh .brand-purple .c-logo:focus,
+.c-uhfh .brand-purple .c-uhf-nav-link:hover,
+.c-uhfh .brand-purple .c-uhf-nav-link:focus,
+.c-uhfh .brand-purple .c-uhf-menu > button:hover,
+.c-uhfh .brand-purple .c-uhf-menu > button:focus,
+.theme-light.js-cat-head,
+.fyre .fyre-moderator,
+.fyre .fyre-comment-author-tag,
+.theme-dark.brand-neutral.js-cat-head,
+.c-uhfh .brand-neutral .c-logo:hover,
+.c-uhfh .brand-neutral .c-logo:focus,
+.c-uhfh .brand-neutral .c-uhf-nav-link:hover,
+.c-uhfh .brand-neutral .c-uhf-nav-link:focus,
+.c-uhfh .brand-neutral .c-uhf-menu > button[aria-expanded="true"],
+.c-uhfh .brand-neutral .c-uhf-menu > ul,
+.c-uhfh .brand-blue,
+.c-uhfh .brand-blue .c-action-trigger,
+.c-uhfh .brand-blue .c-logo,
+.c-uhfh .brand-blue .c-uhf-nav-link,
+.c-uhfh .brand-blue .c-uhf-menu a,
+.c-uhfh .brand-blue .c-uhf-menu button,
+.c-uhfh .brand-blue .c-me:not(.msame_open) .msame_Header_name,
+.theme_night .parameterName,
+.theme_night dl.parameterList dt,
+.theme_night .fyre-editor .fyre-editor-toolbar .goog-toolbar > div.fyre-button-right.fyre-post-button,
+.c-uhfh .brand-purple .c-uhf-menu > button[aria-expanded="true"],
+.c-uhfh .brand-purple .c-uhf-menu > ul,
+#ux-header .search-block .search-band-content .ask-an-issue-wrapper > a,
+.question-follow-widget .widget-action,
+.node-follow-widget .widget-action
+{
+	background-color: hsl(146, 100%, 60%) !important;
+	color: #e5e5e5 !important;
+}
+
+
+/* CS INVERTED BUTTON = */
+a:hover,
+.topic a:active,
+.topic a:hover
+{
+	color: #cdedc9 !important;
+}
+
+.placement__icon,
+#lia-body.CommunityPage .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .showMoreContainer .lia-button.lia-button-primary,
+#lia-body.CategoryPage .lia-content > .lia-top-quilt.lia-quilt-category-page-communities .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .showMoreContainer .lia-button.lia-button-primary,
+.moniker-picker button,
+.moniker-picker li > a,
+a.c-call-to-action.c-glyph.f-primary
+{
+	color: hsl(146, 100%, 60%) !important;
+	background-color: #000 !important;
+}
+
+.navbar-inverse,
+.navbar-inverse .navbar-nav > li > a
+{
+	color: #e5e5e5 !important;
+	background: hsl(146, 100%, 60%) !important;
+}
+
+
+/* GRAY BUTTON ============================== */
+#projectPage #Downloads .button
+{
+	background-color: #5d5d5d !important;
+}
+
+
+/* HOVERED BUTTON ============================== */
+#projectPage #Downloads .button:hover
+{
+	background-color: #5d5d5d !important;
+	color: hsl(146, 100%, 60%) !important;
+}
+
+ul.side-nav .selected-nav,
+div.replies div.messageIcon.status.proposed,
+.auto-suggest-results ul li:hover,
+.auto-suggest-results ul li.selected,
+.anchor-top,
+.c-histogram > ul a > div > div,
+.m-histogram > ul a > div > div,
+#lia-body.ForumTopicPage .unread:before,
+.tr_Right_Nav_Header_OnePSTemplate,
+.gcr_morePrivacyHeader
+{
+	background-color: hsl(146, 100%, 60%);
+}
+
+.div_heading_OnePSTemplete
+{
+	color: hsl(146, 100%, 60%);
+	border: 1px solid hsl(146, 100%, 60%);
+	border-left: 2em solid hsl(146, 100%, 60%);
+}
+
+
+/* END ACCENT ============================== */
+div#rightNavigationMenu > div a:visited
+{
+	color: #a0a0a0;
+}
+
+#search-box .search-container,
+.Masthead,
+#contributeSection,
+#sideNav #contributeSection h3,
+.sidebar #contributeSection h3,
+#contributeSection h3
+{
+	background-color: inherit !important;
+}
+
+#navigationButtons ins.print,
+#navigationButtons ins.export,
+#navigationButtons ins.share,
+#navigationButtons ins.contribute,
+.LW_CollapsibleArea_Anchor_Img
+{
+	background-color: hsl(146, 100%, 60%);
+}
+
+#vsPanel
+{
+	background-color: #212121;
+}
+
+
+/* CS OUTLINE */
+.m-pagination .active a
+{
+	outline: 1px solid hsl(146, 100%, 60%) !important;
+}
+
+
+/* Version of .NET framework under the main header */
+#curversion
+{
+	color: #9b9b9b;
+}
+
+
+/* CS INHERIT */
+h2.entry-title a,
+#posts-query-type .filter-option.selected a,
+div#body ul#task-nav-list > li.nav-header,
+#page #body ul#task-nav-list > li.nav-header,
+div#body ul#mobile-task-nav-list > li.nav-header,
+#page #body ul#mobile-task-nav-list > li.nav-header,
+div.section p,
+div.helpbubble p,
+div.helpbubble ul,
+a.author > abbr,
+.section.item-section .section-title,
+.page-title-header .page-subtitle,
+.breadcrumb,
+.breadcrumb > li a,
+.breadcrumb > li a:visited,
+.breadcrumb > li + li:before,
+.blog-list span,
+.blog-list a:hover,
+.event-list span,
+.event-list a:hover
+{
+	color: inherit;
+}
+
+li.box-title p,
+.fusion-button-text,
+.fusion-button i
+{
+	color: inherit !important;
+}
+
+
+/* msdn sub ======*/
+.n29d-nav a
+{
+	color: #212121;
+}
+
+.DL_list li:nth-child(even)
+{
+	background-color: #212121;
+}
+
+
+/* technet and msdn ==================================== */
+#megabladeItems > li.active > a
+{
+	background-color: #575757;
+}
+
+
+/********** Table of contents*/
+#tocNav a.tocExpanded,
+#tocnav a.toc_expanded,
+div#tocDropdownMenu a.tocExpanded,
+#megabladeMainMenu:after
+{
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU3pUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHja40qtyEzjUgADExMuE1NzCzNLMzMDIDCxNLE0SgQyLAwgwAhMGhqYgEkoxwDGQBHngktAARcATu4UINhypRgAAAAJcEhZcwAAEGUAABBlAdEuKBEAAACKSURBVDjL3ZIxDoJAEEWXw9BaUEGoLLFUrgC0nsJLcglILIzF+xZgMpmwiJT8cmfe25nshnCMSEqACkh/9QIn4OwPH5IEjECxAl+AF1PutvDUnJjkC5u+3hYbACfJV+A3cPU3dFYiaQDyCFzHduwWJtkGmxdp3STb4ZjkL9hLZvi264MBJZCFY+cDxLIdTU4i8BsAAAAASUVORK5CYII=') no-repeat scroll !important;
+	background-color: transparent !important;
+	height: 12px !important;
+	width: 12px !important;
+	margin-top: 5px !important;
+	background-size: 12px !important;
+}
+
+#tocNav a.tocCollapsed,
+#tocnav a.toc_collapsed,
+div#tocDropdownMenu a.tocCollapsed
+{
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAU3pUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHja40qtyEzjUgADExMuE1NzCzNLMzMDIDCxNLE0SgQyLAwgwAhMGhqYgEkoxwDGQBHngktAARcATu4UINhypRgAAAAJcEhZcwAAEGUAABBlAdEuKBEAAACKSURBVDjL3ZIxDoJAEEWXw9BaUEGoLLFUrgC0nsJLcglILIzF+xZgMpmwiJT8cmfe25nshnCMSEqACkh/9QIn4OwPH5IEjECxAl+AF1PutvDUnJjkC5u+3hYbACfJV+A3cPU3dFYiaQDyCFzHduwWJtkGmxdp3STb4ZjkL9hLZvi264MBJZCFY+cDxLIdTU4i8BsAAAAASUVORK5CYII=') no-repeat scroll !important;
+	background-color: transparent !important;
+	height: 8px !important;
+	width: 8px !important;
+	margin-top: 7px !important;
+	background-size: 8px !important;
+	transform: rotate(-90deg) !important;
+}
+
+#tocnav div.tocselected a.toc_collapsed,
+.main-container
+{
+	margin-top: 0px !important;
+}
+
+.main-header
+{
+	margin-bottom: 0px !important;
+}
+
+#megabladeMainMenu:after
+{
+	margin: 5px !important;
+}
+
+#tocNav a.tocExpanded + a
+{
+	color: hsl(146, 100%, 60%) !important;
+}
+
+#tocNav div.tocLevel.current,
+div#tocnav div.toclevel.current
+{
+	background: hsl(146, 100%, 60%) !important;
+	border-radius: 3px 0 0 3px !important;
+	margin-right: -5px !important;
+	margin-left: -5px !important;
+	padding: 5px !important;
+}
+
+div#tocNav div.tocLevel.current > a
+{
+	color: #e5e5e5 !important;
+	font-weight: bold !important;
+}
+
+
+/* DARKISH GRAY */
+.widget_tag_cloud a,
+#lia-body .lia-content .category-recent-conversations-wrapper .recent-conversations-messages-wrapper .message-list .post-reply,
+#threadMain .thread-message-answer
+{
+	background-color: #111211;
+}
+
+
+/* gallery.technet.microsoft.com======*/
+
+/* tables */
+tr.oddRow
+{
+	background: hsl(0, 0%, 10%) !important;
+}
+
+tr.evenRow
+{
+	background: hsl(0, 0%, 15%) !important;
+}
+
+tr.oddRow td,
+tr.evenRow td
+{
+	color: hsl(0, 0%, 90%);
+}
+
+
+/* social.technet====================*/
+div.unified-baseball-card,
+.unified-baseball-card-compact,
+.unified-baseball-card-hover div.unified-baseball-card
+{
+	background-color: #3e3e3e;
+}
+
+
+/* support-ms */
+.single .entry-meta,
+.author-bio-box h6,
+.internav a:hover,
+.internav a:focus,
+.kb-article .kb-notice-section
+{
+	background: inherit;
+}
+
+
+/* developer-ms */
+div#tocnav div.tocselected a,
+div#tocnav div.tocselected a:link,
+div#tocnav div.tocselected a:visited
+{
+	color: #e5e5e5;
+	padding-left: 12px;
+}
+
+div#rightNavigationMenu > div a
+{
+	color: #fff;
+	display: block;
+	margin-bottom: 10px;
+}
+
+div#rightNavigationMenu div#indoc_toc div#indoc_title,
+div#rightNavigationMenu div#indoc_toc ul#indoc_toclist li
+{
+	color: #fff;
+	font-weight: 600;
+}
+
+nav.c-in-page-navigation.f-sticky
+{
+	background: #fff0;
+}
+
+
+/* Ordinary code color */
+[style*="Black"]
+{
+	color: #dcdcdc !important;
+}
+
+
+/* Keywords */
+[style*="Blue"],
+font[color="#0000ff"],
+.kwd,
+.highlight-keyword,
+.xaml__keyword,
+.codeSnippetContainerCode .keyword
+{
+	color: #53a1e2 !important;
+}
+
+
+/* Comments */
+[style*="Green"],
+.com,
+.highlight-comment,
+.xaml__comment,
+font[color="#008000"],
+.gist .pl-c
+{
+	color: #5cbc5c !important
+}
+
+
+/* String literals */
+[style*="A31515"],
+font[color="#a31515"],
+.str
+{
+	color: #d69d85 !important;
+}
+
+[style*="Red"],
+.highlight-literal,
+.xaml__tag_start,
+.xaml__tag_end
+{
+	color: #e44343 !important;
+}
+
+.code,
+.highlight-number,
+font[color="#2b91af"],
+span.selflink,
+.typ
+{
+	color: #09f1eb !important;
+}
+
+
+/* Other code color */
+.hljs
+{
+	color: hsl(200, 0%, 80%) !important;
+}
+
+.hljs-meta
+{
+	color: hsl(100, 50%, 50%) !important;
+}
+
+.hljs-attribute,
+.hljs-attr,
+.xaml__attr_value,
+.atv
+{
+	color: hsl(50, 80%, 50%) !important;
+}
+
+.hljs-literal,
+.tag,
+.gist .pl-s,
+.gist .pl-pds,
+.gist .pl-s .pl-pse .pl-s1,
+.gist .pl-sr,
+.gist .pl-sr .pl-cce,
+.gist .pl-sr .pl-sre,
+.gist .pl-sr .pl-sra
+{
+	color: hsl(180, 80%, 50%) !important;
+}
+
+.hljs-built_in,
+.gist .pl-smi,
+.gist .pl-s .pl-s1,
+.gist .pl-c1,
+.gist .pl-s .pl-v
+{
+	color: hsl(200, 100%, 50%) !important;
+}
+
+.hljs-number,
+.atn,
+.gist .pl-e,
+.gist .pl-en,
+.css__element
+{
+	color: hsl(280, 100%, 63%) !important
+}
+
+
+/* JUNK ======*/
+#nrSurvey,
+#PrivacyBanner,
+.lf-mobile-thread-btn,
+.lf-thread-btn,
+#archiveDisclaimer,
+.sockWrapper,
+.stdr-container > .stdr-vote,
+.epb-container.active,
+.jumbotron,
+#vsBanner,
+.jumbotron-hero,
+[id='openFeedbackContainer'],
+body #bottom-bar.bottom-bar,
+.or-c-pf.or-o,
+section.section.content-survey,
+.cc-banner,
+div#ux-footer,
+#Footer,
+#site-footer,
+.shell-footer,
+div.epb-container,
+div#dlc-hp-hero-slideshow,
+.social-icons-wrap,
+.n29d-bing,
+div#PrivacyBanner,
+#hero-content,
+.m-alert.f-information,
+.picchu .gray-l3-bgc,
+a.top-stripe-banner-content,
+#supColumnWrapper,
+section#slide1_section,
+section#slim_feature,
+.m-hero,
+#home-hero,
+button#skylight-entry-chrome,
+.dlc-v73 .end-social,
+.skylight-entry .message-bubble.full-width,
+.survey-invite-slide-in,
+#lia-body .custom-share-component .lia-decoration-border-content,
+#Fragment_HeroHeadlines,
+.docs .feedback .widget,
+.carousel.carousel-versatile .background,
+.c-carousel,
+.c-uhff > section,
+.c-uhff > div,
+.footerSubLinksContainer,
+.c-uhff-nav,
+.connect-home.fullwidth-box.top-hero,
+#usbl-integrated-button,
+[data-vg="nonmwf-wfb-footnote-VG1"],
+.site-survey-opener-button,
+.survey-background,
+#mainBody .alert,
+div#threadPageSidebarContainer,
+a#toggleSidebar,
+.site-footer,
+.swim.swim-gray.pt-60.pb-60.mt-30,
+.swim.swim-purple.pt-40.pb-40.pt-60-sm.pb-60-sm,
+.swimlane.social-proof,
+.c-hero,
+.m-hero-item,
+.feedback-section,
+.hero.theme-dark.image-middle-center.content-middle-center,
+.survey
+{
+	display: none !important;
+}
+
+.triple-hero-control a.large.dark-text-color h1,
+.triple-hero-control a.large.dark-text-color h2,
+.triple-hero-control a.top.dark-text-color h1,
+.triple-hero-control a.top.dark-text-color h2,
+.triple-hero-control a.bottom.dark-text-color h1,
+.triple-hero-control a.bottom.dark-text-color h2,
+.triple-hero-control div.large.dark-text-color h1,
+.triple-hero-control div.large.dark-text-color h2,
+.triple-hero-control div.top.dark-text-color h1,
+.triple-hero-control div.top.dark-text-color h2,
+.triple-hero-control div.bottom.dark-text-color h1,
+.triple-hero-control div.bottom.dark-text-color h2
+{
+	color: initial !important;
+}
+
+#BrandDisplayText
+{
+	display: block;
+}
+
+
+/* account-ms */
+#srv_shellHeaderMicrosoftLogo img
+{
+	background-color: #c7c7c7;
+}
+
+div.back-to-top-wrap
+{
+	background-color: #2a2a2a;
+}
+
+font font p
+{
+	color: #0088ff;
+}
+
+
+/* CODE BACKGROUND */
+pre
+{
+	border: solid hsl(200, 0%, 20%) 1px !important;
+	color: #fff;
+}
+
+code,
+pre,
+.codeSnippetContainerCode
+{
+	background: hsl(200, 0%, 8%) !important;
+	color: #fff;
+}
+
+.shell-category-header.cat-theme-blue
+{
+	background-color: #383838;
+}
+
+blockquote,
+#answers.answers,
+.build-app
+{
+	background: hsla(0, 0%, 5%, 0.48);
+}
+
+img.image-icon-large,
+img.c-image.oneui-override
+{
+	background: hsl(146, 100%, 60%);
+	border-radius: 19px;
+}
+
+.addTask
+{
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.line-highlight
+{
+	background: #333 !important;
+}
+
+.icon svg path,
+path[fill]
+{
+	fill: hsl(146, 100%, 60%) !important;
+}
+
+.Forums div#homePageContentContainer,
+.Forums div#msdn-technet-en-thread div#threadPageContentContainer
+{
+	width: 100% !important;
+}
+
+
+/* PREVENT SCROLL JITTER */
+div#content
+{
+	padding-top: 0 !important;
+}
+p,
+span {
+	color: #fff !important
+}
