@@ -15,7 +15,8 @@
 }
 
 #main input, #main .quick-search-container {
-  background-color: #151f29 !important;
+  background-color: #000 !important;
+  color: #fff !important;
 }
 
 #main .pulse-right-indicator, #main .cell-component, #main .column-header, #main .name-column-header, #main .pulse-component {
@@ -27,5 +28,5 @@
 }
 
 h1, .icon, .post_time_wrapper > a, .body_text > p, .post_small_body {
-    color: #fff !important;
+  color: #fff !important;
 }
