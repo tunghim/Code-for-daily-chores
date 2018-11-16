@@ -1082,6 +1082,6 @@ g-loading-icon img {
     background: #222!important;
 }
 
-input:focus {
-    background-color: #fff;
+input[type=number]:focus {
+    color: #aaa !important;
 }
