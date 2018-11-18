@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://outlook.office.com/owa/?realm="), url-prefix("https://outlook.office.com/owa/?realm=tamusa.edu&exsvurl=1&ll-cc=1033&modurl=0"), domain("outlook.office.com"), domain("office365.com") {
 html, body, tbody, tr, td, li, h1, h2, h3, h4, h5 {
 		background-color: #111!important;
 		border-color: #344!important;
@@ -629,3 +630,68 @@ html, body, tbody, tr, td, li, h1, h2, h3, h4, h5 {
 	._n_31 {
 		background-color: #222!important;
 	}
+}
+
+@-moz-document domain("portal.office.com") {
+html, body {
+		background: #252C33;
+	}
+	.o365-theme-base h1,
+	.o365-theme-base h3,
+	.o365-theme-base h4,
+	.o365-theme-base h5,
+	.o365-theme-base h6 {
+		color: whitesmoke;
+	}
+	.Shell-Body {
+		background-color: #252C33;
+		color: whitesmoke;
+	}
+	.Shell-Footer {
+		background-color: #252C33;
+	}
+}
+
+@-moz-document domain("login.microsoftonline.com") {
+body {
+		color: #b2b2b2!important;
+	}
+	.login_panel {
+		background: #14171A;
+		color: whitesmoke;
+		border-left: none !important;
+		;
+	}
+	input.login_textfield {
+		background: black;
+		color: whitesmoke;
+	}
+	a.tile_link .bigtext {
+		color: whitesmoke;
+	}
+	a.tile_link:hover .bigtext {
+		color: whitesmoke;
+	}
+	.smallertext {
+		color: whitesmoke;
+	}
+	table.user_tile:hover {
+		background: #252C33 none repeat scroll 0% 0%;
+	}
+	.inner {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 412px;
+		width: calc(100% - 40px);
+		padding: 36px;
+		margin-bottom: 28px;
+		background-color: #2b2a2a66;
+		-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
+		-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.55);
+		border: 1px solid #818c94;
+		border: 1px solid rgba(0, 0, 0, 0.4);
+		min-width: 320px;
+		min-height: 364px;
+	}
+}
