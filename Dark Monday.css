@@ -1,32 +1,38 @@
-#main, #main .group-header-component div, .board-content-component, #main #content, #main #header div, #main .leftnav, #main #content, #main #header_top_nav_profile .top-profile-pic-wrapper, #main #header_top_nav_profile .top-profile-arrow-wrapper, #main .ds-menu-dialog, #main .q-list-wrapper, #main .person-select-button, #main .clear-button, #main .save-button, #main #inbox, #main #inbox div, .pulse-menu-component, .name-cell, .person-cell, .timerange-cell, .columns-battery-cell, .numeric-cell, .formula-cell, .pulse-right-indicator, .columns-battery-footer, .numeric-footer, .formula-footer, .slide-panel, .post, .post_small {
-  background: #000 !important;
-}
+@-moz-document domain("monday.com") {
+  #main, #main .group-header-component div, .board-content-component, #main #content, #main #header div, #main .leftnav, #main #content, #main #header_top_nav_profile .top-profile-pic-wrapper, #main #header_top_nav_profile .top-profile-arrow-wrapper, #main .ds-menu-dialog, #main .q-list-wrapper, #main .person-select-button, #main .clear-button, #main .save-button, #main #inbox, #main #inbox div, .pulse-menu-component, .name-cell, .person-cell, .timerange-cell, .columns-battery-cell, .numeric-cell, .formula-cell, .pulse-right-indicator, .columns-battery-footer, .numeric-footer, .formula-footer, .slide-panel, .post, .post_small, .replay_area .replay, .post_reply, .post_reply_tools, .redactor-editor, .redactor-box {
+    background: #000 !important;
+  }
 
-#header #top_user_profile #user_profile_menu:hover .hover-circle {
-  background: rgb(88, 96, 105);
-}
+  #header #top_user_profile #user_profile_menu:hover .hover-circle {
+    background: rgb(88, 96, 105);
+  }
 
-#main #header #top_user_profile #top-profile-pic {
-  background: rgb(196, 196, 196);
-}
+  #main #header #top_user_profile #top-profile-pic {
+    background: rgb(196, 196, 196);
+  }
 
-#main span, #main p {
-  color: rgb(88, 96, 105);
-}
+  #main span, #main p {
+    color: #fff;
+  }
 
-#main input, #main .quick-search-container {
-  background-color: #000 !important;
-  color: #fff !important;
-}
+  #main input, #main .quick-search-container {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
 
-#main .pulse-right-indicator, #main .cell-component, #main .column-header, #main .name-column-header, #main .pulse-component {
-  border-color: grey !important;
-}
+  #main .pulse-right-indicator, #main .cell-component, #main .column-header, #main .name-column-header, #main .pulse-component {
+    border-color: grey !important;
+  }
 
-#main #inbox .expander_toggle:before {
-  background-image: none;
-}
+  #main #inbox .expander_toggle:before {
+    background-image: none;
+  }
 
-h1, .icon, .post_time_wrapper > a, .body_text > p, .post_small_body {
-  color: #fff !important;
+  h1, .icon, .post_time_wrapper>a, .body_text>p, .post_small_body {
+    color: #fff !important;
+  }
+
+  .post .replay_area .top_arrow {
+    border-color: unset;
+  }
 }
