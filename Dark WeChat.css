@@ -1,0 +1,24 @@
+@-moz-document domain("web.wechat.com") {
+  #chatArea, .box_hd .title_wrap {
+    background-color: #000;
+  }
+
+  #editArea {
+    color: #fff;
+  }
+
+  .box_hd .title .title_name {
+    color: #b2e281;
+  }
+
+  .main_inner {
+    margin: unset;
+    max-width: unset;
+    max-height: unset;
+  }
+
+  .main {
+    height: 100%;
+    padding-top: unset;
+  }
+}
