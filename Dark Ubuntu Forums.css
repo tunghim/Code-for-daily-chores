@@ -1,142 +1,376 @@
 @namespace url(http://www.w3.org/1999/xhtml);
+
 /* ============ Default Reset ============ */
+header .wrapper {
+  background: transparent none !important;
+}
 
-  header .wrapper { background: transparent none !important; } /* login.ubuntu.com */
-  * { background-color: transparent !important; } /* */
+/* login.ubuntu.com */
+* {
+  background-color: transparent !important;
+}
 
-  * { border-color: #F9CE5C !important; color: #777 !important; box-shadow: none !important; text-shadow: none !important; } /* */
-  a:link { color: #F9CE5C !important; } /* */
-  a:visited { color: #9F6B08 !important; } /* */
+/* */
+* {
+  border-color: #F9CE5C !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
 
-  /* img fix */
-  .above_body { background: none !important; }
+/* */
+a:link {
+  color: #F9CE5C !important;
+}
 
-  /* ============ Full Site Effect ============ */
+/* */
+a:visited {
+  color: #9F6B08 !important;
+}
 
-  html, body { background: #000 none !important; } /* site background */
-  div.above_body { background-color: #000 !important; } /* top nav pane */
+/* */
+/* img fix */
+.above_body {
+  background: none !important;
+}
 
-  .blocksubhead { color: #F9CE5C !important; }
+/* ============ Full Site Effect ============ */
+html, body {
+  background: #000 none !important;
+}
 
-  /* thread tools */
-  .toolsmenu { border: none !important; }
+/* site background */
+div.above_body {
+  background-color: #000 !important;
+}
 
-  /* pagination */
-  .pagination span.prev_next a, .pagination span.first_last a { top: -1px !important; }
-  .pagination span:hover { background-color: #040404 !important; }
-  /* .pagination span a { padding: 0px 4px !important; } /* new style */
-  .pagination span.selected a { color: red !important; border: 1px solid red !important; }
+/* top nav pane */
+.blocksubhead {
+  color: #F9CE5C !important;
+}
 
-  /* popup body */
-  .popupbody { background-color: #000 !important; border: 1px solid #F9CE5C !important; } /* popup background */
-  .popupbody li[id*="link_"]:hover, .popupbody li > a:hover { background-color: #000 !important; } /* popup highlight */
+/* thread tools */
+.toolsmenu {
+  border: none !important;
+}
 
-  .cke_dialog { background-color: #000 !important; } /* smileys picker */
+/* pagination */
+.pagination span.prev_next a, .pagination span.first_last a {
+  top: -1px !important;
+}
 
-  .smilielist li { border: 1px solid #F9CE5C !important; }
-  div.smilie { border: none !important; }
-  .smilielist li:hover { background-color: #000 !important; }
-  .smilielist .label { border: none !important; }
+.pagination span:hover {
+  background-color: #040404 !important;
+}
 
-  .cke_button .restoretext { color: #F9CE5C !important; }
-  .cke_button .restoretext:hover { background-color: #000 !important; }
+/* .pagination span a { padding: 0px 4px !important; } /* new style */
+.pagination span.selected a {
+  color: red !important;
+  border: 1px solid red !important;
+}
 
-  .cke_dialog_title { color: #F9CE5C !important; }
-  .cke_dialog_ui_button { color: #F9CE5C !important; }
-  .cke_dialog_ui_button:hover { background-color: #000 !important; }
-  a[class*="cke_button_"] span { color: #F9CE5C !important; }
-  a[class*="cke_button_"]:hover { background-color: #000 !important; }
-  div.cke_dialog_ui_input_text { border: 1px solid #F9CE5C !important; }
-  li.cke_panel_listItem a { border-color: transparent !important; }
-  li.cke_panel_listItem:hover { background-color: #000 !important; }
-  .cke_panel_grouptitle { color: #F9CE5C !important; }
-  #smilies .blocksubhead { background-color: #000 !important; }
+/* popup body */
+.popupbody {
+  background-color: #000 !important;
+  border: 1px solid #F9CE5C !important;
+}
 
-  /* quick nav popup */
-  .navpopupbody { width: 350px !important; }
-  .navpopupbody li.optionlabel { background-color: #000 !important; }
-  .navpopupbody li a:hover { background-color: #000 !important; }
+/* popup background */
+.popupbody li[id*="link_"]:hover, .popupbody li>a:hover {
+  background-color: #000 !important;
+}
 
-  /* bread crumbs */
-  .breadcrumb .navbit > a:hover, .breadcrumb .navbit.lastnavbit span:hover { background-color: #000 !important; }
-  .breadcrumb .navbit.lastnavbit span { padding-right: 3px !important; border: 1px solid #777 !important; } /* adjust last breadcrumb width */
+/* popup highlight */
+.cke_dialog {
+  background-color: #000 !important;
+}
 
-  /* input text boxes */
-  input, select, select > option { color: #F9CE5C !important; }
-  .formcontrols input.textbox:focus { background-color: transparent !important; }
+/* smileys picker */
+.smilielist li {
+  border: 1px solid #F9CE5C !important;
+}
 
-  /* ============ Buttons ============ */
+div.smilie {
+  border: none !important;
+}
 
-  .button { background: transparent none !important; }
+.smilielist li:hover {
+  background-color: #000 !important;
+}
 
-  /* nav btns */
-  .loginbutton, .loginbutton:link, .loginbutton:visited, .cta { background: transparent none !important; } /* login button */
-  .loginbutton:hover, .cta:hover { background-color: #000 !important; }
+.smilielist .label {
+  border: none !important;
+}
 
-  * html .navpopupmenu.popupmenu.nohovermenu a.textcontrol, .navpopupmenu a.textcontrol, .navpopupmenu a.popupctrl, .navpopupmenu.popupmenu.nohovermenu a.textcontrol, .navpopupmenu.popupmenu.nohovermenu a.popupctrl { background: transparent none !important; }
-  .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_ok, .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_cancel, .textcontrols a, a.textcontrol { background: transparent none !important; }
+.cke_button .restoretext {
+  color: #F9CE5C !important;
+}
 
-  .cke_skin_kama .cke_editor .cke_rcombo a, .cke_skin_kama .cke_editor .cke_toolgroup { background: transparent none !important; } /* compose text */
-  .cke_skin_kama .cke_toolgroup { background: transparent none !important; }
-  .cke_skin_kama .cke_wrapper, .cke_skin_kama .cke_wrapper.cke_ltr, .cke_skin_kama .cke_wrapper.cke_rtl { background: transparent none !important; }
+.cke_button .restoretext:hover {
+  background-color: #000 !important;
+}
 
-  .ctrlcontainer { color: #F9CE5C !important; } /* quick nav btn text */
+.cke_dialog_title {
+  color: #F9CE5C !important;
+}
 
-  .newcontent_textcontrol, .actionbuttons .group .button { border: 1px solid #F9CE5C !important; background: none !important; } /* new thread */
-  .newcontent_textcontrol:hover, .actionbuttons .group .button:hover { background-color: #000 !important; }
+.cke_dialog_ui_button {
+  color: #F9CE5C !important;
+}
 
-  input.button { color: #F9CE5C !important; border: 1px solid #F9CE5C !important; } /* adv search page */
-  input.button:hover { background-color: #000 !important; }
+.cke_dialog_ui_button:hover {
+  background-color: #000 !important;
+}
 
-  /* button highlight - some */
-  a.textcontrol:hover, a.popupctrl:hover { background-color: #000 !important; }
+a[class*="cke_button_"] span {
+  color: #F9CE5C !important;
+}
 
-  /* ============ Nav Pages ============ */
+a[class*="cke_button_"]:hover {
+  background-color: #000 !important;
+}
 
-  li[id*="thread_"]:hover { background-color: #000 !important; } /* thread line highlight */
+div.cke_dialog_ui_input_text {
+  border: 1px solid #F9CE5C !important;
+}
 
-  /* ============ Thread Posts ============ */
+li.cke_panel_listItem a {
+  border-color: transparent !important;
+}
 
-  .thread_info .blockbody { background: transparent none !important; }
+li.cke_panel_listItem:hover {
+  background-color: #000 !important;
+}
 
-  div#pagetitle { padding: 10px 0px 0px !important; }
-  .bbcode_code, .bbcode_quote { background-color: #000 !important; }
+.cke_panel_grouptitle {
+  color: #F9CE5C !important;
+}
 
-  li[id*="post_"]:hover { background-color: #000 !important; }
-  .posthead, .userinfo, .userinfo_noavatar { background-color: #000 !important; }
-  .userstats dt, .username span { color: #F9CE5C !important; }
-  a.firstunread { border: none !important; padding-top: 4px !important; }
-  h2.posttitle { color: #F9CE5C !important; }
+#smilies .blocksubhead {
+  background-color: #000 !important;
+}
 
-  /* ============ Compose ============ */
+/* quick nav popup */
+.navpopupbody {
+  width: 350px !important;
+}
 
-  label { color: #F9CE5C !important; }
+.navpopupbody li.optionlabel {
+  background-color: #000 !important;
+}
 
-  /* ============ Main Page ============ */
+.navpopupbody li a:hover {
+  background-color: #000 !important;
+}
 
-  .forumrow.table, .navlinks, .blockhead, .thread_info h4 { background-color: #000 !important; background-image: none !important; }
-  .forumrow.table:hover { background-color: #000 !important; }
+/* bread crumbs */
+.breadcrumb .navbit>a:hover, .breadcrumb .navbit.lastnavbit span:hover {
+  background-color: #000 !important;
+}
 
-  /* ============ Profile Page ============ */
-  .tabslight .userprof_moduleinactive { border-top-color: transparent !important; } /* profile categories - inactive */
+.breadcrumb .navbit.lastnavbit span {
+  padding-right: 3px !important;
+  border: 1px solid #fff !important;
+}
 
-  /* ============ Settings Page ============ */
-  h5 { color: #F9CE5C !important; }
-  .blockhead { border: 1px solid #F9CE5C !important; color: #F9CE5C !important; } /* header border for settings groups */
-  #usercp_nav .blockrow * a:hover { background-color: #000 !important; }
+/* adjust last breadcrumb width */
+/* input text boxes */
+input, select, select>option {
+  color: #F9CE5C !important;
+}
 
-  li[id*="pm_"]:hover { background-color: #000 !important; }
-  .pmlist .blockrow:first-child { border-top: 1px solid #F9CE5C !important; }
+.formcontrols input.textbox:focus {
+  background-color: transparent !important;
+}
 
-  /* .blocksubhead { background-color: #000 !important; } /* */
+/* ============ Buttons ============ */
+.button {
+  background: transparent none !important;
+}
 
-  .vB_DatePicker.page { background-color: #000 !important; } /* date picker bg */
-  .vB_DatePicker .tcat { background-color: #000 !important; color: #F9CE5C !important; } /* date picker month top row */
-  .vB_DatePicker > thead > tr.page.smallfont { background-color: #000 !important; } /* week row */
+/* nav btns */
+.loginbutton, .loginbutton:link, .loginbutton:visited, .cta {
+  background: transparent none !important;
+}
 
-  .vB_DatePicker td.smallfont { color: #F9CE5C !important; } /* day font color */
-  .vB_DatePicker td.smallfont:hover { background-color: #040404 !important; }
-  .vB_DatePicker td.time.smallfont, .vB_DatePicker td.tfoot.smallfont { color: #777 !important; } /* non-month day color */
-  .vB_DatePicker td.today.time, .vB_DatePicker td.today { color: red !important; border: 1px solid red !important; } /* today color */
+/* login button */
+.loginbutton:hover, .cta:hover {
+  background-color: #000 !important;
+}
 
-  .userprof_moduleinactive, #sidebar_container.member_summary, .moduleinactive_bg { background: transparent none !important; box-shadow: none !important; }
+* html .navpopupmenu.popupmenu.nohovermenu a.textcontrol, .navpopupmenu a.textcontrol, .navpopupmenu a.popupctrl, .navpopupmenu.popupmenu.nohovermenu a.textcontrol, .navpopupmenu.popupmenu.nohovermenu a.popupctrl {
+  background: transparent none !important;
+}
+
+.cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_ok, .cke_skin_kama .cke_dialog_contents a.cke_dialog_ui_button_cancel, .textcontrols a, a.textcontrol {
+  background: transparent none !important;
+}
+
+.cke_skin_kama .cke_editor .cke_rcombo a, .cke_skin_kama .cke_editor .cke_toolgroup {
+  background: transparent none !important;
+}
+
+/* compose text */
+.cke_skin_kama .cke_toolgroup {
+  background: transparent none !important;
+}
+
+.cke_skin_kama .cke_wrapper, .cke_skin_kama .cke_wrapper.cke_ltr, .cke_skin_kama .cke_wrapper.cke_rtl {
+  background: transparent none !important;
+}
+
+.ctrlcontainer {
+  color: #F9CE5C !important;
+}
+
+/* quick nav btn text */
+.newcontent_textcontrol, .actionbuttons .group .button {
+  border: 1px solid #F9CE5C !important;
+  background: none !important;
+}
+
+/* new thread */
+.newcontent_textcontrol:hover, .actionbuttons .group .button:hover {
+  background-color: #000 !important;
+}
+
+input.button {
+  color: #F9CE5C !important;
+  border: 1px solid #F9CE5C !important;
+}
+
+/* adv search page */
+input.button:hover {
+  background-color: #000 !important;
+}
+
+/* button highlight - some */
+a.textcontrol:hover, a.popupctrl:hover {
+  background-color: #000 !important;
+}
+
+/* ============ Nav Pages ============ */
+li[id*="thread_"]:hover {
+  background-color: #000 !important;
+}
+
+/* thread line highlight */
+/* ============ Thread Posts ============ */
+.thread_info .blockbody {
+  background: transparent none !important;
+}
+
+div#pagetitle {
+  padding: 10px 0px 0px !important;
+}
+
+.bbcode_code, .bbcode_quote {
+  background-color: #000 !important;
+}
+
+li[id*="post_"]:hover {
+  background-color: #000 !important;
+}
+
+.posthead, .userinfo, .userinfo_noavatar {
+  background-color: #000 !important;
+}
+
+.userstats dt, .username span {
+  color: #F9CE5C !important;
+}
+
+a.firstunread {
+  border: none !important;
+  padding-top: 4px !important;
+}
+
+h2.posttitle {
+  color: #F9CE5C !important;
+}
+
+/* ============ Compose ============ */
+label {
+  color: #F9CE5C !important;
+}
+
+/* ============ Main Page ============ */
+.forumrow.table, .navlinks, .blockhead, .thread_info h4 {
+  background-color: #000 !important;
+  background-image: none !important;
+}
+
+.forumrow.table:hover {
+  background-color: #000 !important;
+}
+
+/* ============ Profile Page ============ */
+.tabslight .userprof_moduleinactive {
+  border-top-color: transparent !important;
+}
+
+/* profile categories - inactive */
+/* ============ Settings Page ============ */
+h5 {
+  color: #F9CE5C !important;
+}
+
+.blockhead {
+  border: 1px solid #F9CE5C !important;
+  color: #F9CE5C !important;
+}
+
+/* header border for settings groups */
+#usercp_nav .blockrow * a:hover {
+  background-color: #000 !important;
+}
+
+li[id*="pm_"]:hover {
+  background-color: #000 !important;
+}
+
+.pmlist .blockrow:first-child {
+  border-top: 1px solid #F9CE5C !important;
+}
+
+/* .blocksubhead { background-color: #000 !important; } /* */
+.vB_DatePicker.page {
+  background-color: #000 !important;
+}
+
+/* date picker bg */
+.vB_DatePicker .tcat {
+  background-color: #000 !important;
+  color: #F9CE5C !important;
+}
+
+/* date picker month top row */
+.vB_DatePicker>thead>tr.page.smallfont {
+  background-color: #000 !important;
+}
+
+/* week row */
+.vB_DatePicker td.smallfont {
+  color: #F9CE5C !important;
+}
+
+/* day font color */
+.vB_DatePicker td.smallfont:hover {
+  background-color: #040404 !important;
+}
+
+.vB_DatePicker td.time.smallfont, .vB_DatePicker td.tfoot.smallfont {
+  color: #fff !important;
+}
+
+/* non-month day color */
+.vB_DatePicker td.today.time, .vB_DatePicker td.today {
+  color: red !important;
+  border: 1px solid red !important;
+}
+
+/* today color */
+.userprof_moduleinactive, #sidebar_container.member_summary, .moduleinactive_bg {
+  background: transparent none !important;
+  box-shadow: none !important;
+}
