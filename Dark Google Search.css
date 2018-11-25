@@ -1,3 +1,4 @@
+@-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
 /*
  * Name:    DarkSearch for Google
  * Author:  Nass O
@@ -1086,6 +1087,41 @@ input[type=number]:focus {
     color: #aaa !important;
 }
 
-.RNNXgb {
+.RNNXgb, .gb_da.gb_6, .gb_vb.gb_aa.gb_g, .gb_Ib, .gb_za.gb_bg.gb_Ze.gb_Hb, .gb_za.gb_dg.gb_jg.gb_Ze.gb_Hb, .gb_Db.gb_Eb {
   background-color: #000;
+}
+
+.gb_vb.gb_aa.gb_g, .gb_za.gb_bg.gb_Ze.gb_Hb, .gb_za.gb_dg.gb_jg.gb_Ze.gb_Hb {
+    color: #fff !important;
+}
+}
+
+@-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
+/* Google Notifications Dropdown iframe */
+
+    .gV6pJf { /*dropdown background*/
+        background-color: #212121;
+    }
+    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb { /*notification background*/
+        background: #151515;
+    }
+    .iWO9fc .mUbCce svg, .yxaWLe svg, .ajgU6 { /*icons*/
+        fill: rgba(255,255,255,.54);
+    }
+    .iWO9fc .mUbCce:hover svg, .yxaWLe:hover svg { /*icons:hover*/
+        fill: rgba(255,255,255,.87);
+    }
+    .XSVuue { /*logo Google*/
+        fill: rgba(255,255,255,.26);
+    }
+    .v7k2xf, .v7k2xf, .gMG7Fd, .wh73ab { /*text*/
+        color: rgba(255,255,255,.87);
+    }
+    .OlDqke, .Vz68Kb { /*subtext*/
+        color: rgba(255,255,2555,.54);
+    }
+    .fEjTrb, .jvWPmb.qs41qe .fEjTrb { /*footer-bar*/
+        background-color: #1d1d1d;
+    }
+
 }
