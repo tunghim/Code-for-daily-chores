@@ -630,6 +630,10 @@ html, body, tbody, tr, td, li, h1, h2, h3, h4, h5 {
 	._n_31 {
 		background-color: #222!important;
 	}
+
+._rp_b5 span {
+    color: #5BE050 !important;
+}
 }
 
 @-moz-document domain("portal.office.com") {
